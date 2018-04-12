@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ClientWS/ClientWS.iml" filepath="$PROJECT_DIR$/ClientWS/ClientWS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/banqueWeb/banqueWeb.iml" filepath="$PROJECT_DIR$/banqueWeb/banqueWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/soap.iml" filepath="$PROJECT_DIR$/soap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Serveur/BanqueService/BanqueService.iml" filepath="$PROJECT_DIR$/Serveur/BanqueService/BanqueService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Serveur/ClientWS/ClientWS.iml" filepath="$PROJECT_DIR$/Serveur/ClientWS/ClientWS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Serveur/ServeurWeb/ServeurWeb.iml" filepath="$PROJECT_DIR$/Serveur/ServeurWeb/ServeurWeb.iml" />
     </modules>
   </component>
 </project>
