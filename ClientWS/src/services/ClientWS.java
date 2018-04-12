@@ -16,13 +16,15 @@ public class ClientWS {
         System.out.println("Conversion");
         System.out.println( stub.conversionEuroToDollar(9000));
         System.out.println("Consulter un compte");
+        stub.addCompte(154L);
+        stub.addCompte(15121L);
+        Compte cp=stub.getCompte(1L);
 
-        Compte cp=stub.getCompte(2L);
-        System.out.println("Solde="+cp.getSolde());
+        System.out.println("Solde=" + cp.getSolde());
         System.out.println("Liste des comptes");
         List<Compte> cptes=stub.getComptes();
         for(Compte c:cptes) {
-            System.out.println(c.getCode() + "----" + c.getSolde());
+            System.out.println(c.getCode() + "----" + c.getSolde() );
         }
 
     }

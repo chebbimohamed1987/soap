@@ -23,11 +23,10 @@ public class BanqueService {
 
     @WebMethod
     public Compte getCompte(@WebParam(name = "code") Long code) {
-
         Iterator it = cptes.iterator();
         while (it.hasNext()) {
             Compte compte = (Compte) it.next();
-            if (code == compte.getCode()) {
+            if (code.equals( compte.getCode())) {
                 return compte;
             }
             return null;
@@ -43,6 +42,7 @@ public class BanqueService {
 
     @WebMethod
     public void addCompte(/*@WebParam(name="code")Long code, */@WebParam(name = "solde") float solde) {
+
 
         cptes.add(new Compte(cptes.size() + 1L, solde, new Date()));
 
